@@ -1,0 +1,5 @@
+cache/
+__pycache__/
+
+preprocessed_codesearchnet_java.json
+preprocessed_codesearchnet_python.json
