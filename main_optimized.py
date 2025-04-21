@@ -11,7 +11,7 @@ from hybrid_retrieval import SimpleWeightedHybridRetriever, ReciprocalRankFusion
 code_data_python, code_data_java = load_subset_dataset(
     "preprocessed_codesearchnet_python.json", 
     "preprocessed_codesearchnet_java.json", 
-    max_items_per_language=3000
+    max_items_per_language=10000
 )
 
 print("Building BM25 index...")

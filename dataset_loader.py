@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import random
 
-def load_subset_dataset(python_path, java_path, max_items_per_language=3000, seed=42):
+def load_subset_dataset(python_path, java_path, max_items_per_language=10000, seed=42):
     """
     Load a subset of the code datasets to improve processing time.
     """

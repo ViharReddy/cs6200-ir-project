@@ -10,7 +10,7 @@ from evaluation import Evaluator
 def run_evaluation(queries_file="queries.json", judgments_file="relevance_judgments.json",
                   python_data_file="preprocessed_codesearchnet_python.json",
                   java_data_file="preprocessed_codesearchnet_java.json",
-                  max_items=3000):
+                  max_items=10000):
     
     # Load data
     code_data_python, code_data_java = load_subset_dataset(
