@@ -65,10 +65,10 @@ class ReciprocalRankFusionRetriever:
         self.semantic_retriever = semantic_retriever
         self.k = k  # RRF constant
     
-    def retrieve(self, query, k_results=10):
+    def retrieve(self, query, k=10):
         # Get results from both methods
-        bm25_results = self.bm25_retriever.retrieve(query, k=k_results*3)
-        semantic_results = self.semantic_retriever.retrieve(query, k=k_results*3)
+        bm25_results = self.bm25_retriever.retrieve(query, k=k*3)
+        semantic_results = self.semantic_retriever.retrieve(query, k=k*3)
         
         # Create dictionaries for rankings
         bm25_ranks = {result["id"]: 1/(i+self.k) for i, result in enumerate(bm25_results)}
@@ -83,7 +83,7 @@ class ReciprocalRankFusionRetriever:
             rrf_scores[doc_id] = bm25_ranks.get(doc_id, 0) + semantic_ranks.get(doc_id, 0)
         
         # Sort by RRF score
-        top_doc_ids = sorted(rrf_scores.keys(), key=lambda x: rrf_scores[x], reverse=True)[:k_results]
+        top_doc_ids = sorted(rrf_scores.keys(), key=lambda x: rrf_scores[x], reverse=True)[:k]
         
         # Get the actual documents
         results = []

@@ -84,7 +84,7 @@ class AnnotationTool:
         bm25_results = self.bm25_retriever.retrieve(query_text, k=max_results)
         semantic_results = self.semantic_retriever.retrieve(query_text, k=max_results)
         hybrid_results = self.hybrid_retriever.retrieve(query_text, k=max_results)
-        rrf_results = self.rrf_retriever.retrieve(query_text, k_results=max_results)
+        rrf_results = self.rrf_retriever.retrieve(query_text, k=max_results)
         
         # Combine results and remove duplicates
         all_results = {}

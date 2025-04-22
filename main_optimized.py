@@ -46,7 +46,7 @@ for i, result in enumerate(weighted_hybrid_retriever.retrieve(query, k=5)):
     print(f"   Docstring: {result['docstring'][:100]}...")
 
 print("\nRRF Results:")
-for i, result in enumerate(rrf_retriever.retrieve(query, k_results=5)):
+for i, result in enumerate(rrf_retriever.retrieve(query, k=5)):
     print(f"{i+1}. [{result['language']}] {result['function_name']} (RRF Score: {result['rrf_score']:.4f})")
     print(f"   Docstring: {result['docstring'][:100]}...")
 
