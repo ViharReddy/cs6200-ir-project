@@ -1,5 +1,4 @@
 import json
-import pandas as pd
 import random
 
 def load_subset_dataset(python_path, java_path, max_items_per_language=1000, seed=42):
