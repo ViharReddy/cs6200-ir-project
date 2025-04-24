@@ -79,6 +79,574 @@
       "type": "concept",
       "language": "python",
       "timestamp": "20250422153606"
+    },
+    "q_20250424132455": {
+      "id": "q_20250424132455",
+      "query": "How to reverse a string in Java",
+      "narrative": "The user wants to reverse a given string  using Java.",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424132455"
+    },
+    "q_20250424132813": {
+      "id": "q_20250424132813",
+      "query": "Java program to check if a number is prime",
+      "narrative": "he user is looking for a Java function that checks whether a given integer is a prime number.",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424132813"
+    },
+    "q_20250424132918": {
+      "id": "q_20250424132918",
+      "query": "How to read a file line by line in Java",
+      "narrative": "The user wants to read a text file in Java, processing each line individually.",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424132918"
+    },
+    "q_20250424133257": {
+      "id": "q_20250424133257",
+      "query": "Java HashMap example with iteration",
+      "narrative": "The user needs a working example of how to store key-value pairs in a HashMap and iterate over its entries in java",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424133257"
+    },
+    "q_20250424133608": {
+      "id": "q_20250424133608",
+      "query": "How to sort an ArrayList in Java",
+      "narrative": "The user has an ArrayList of integers or custom objects and wants to sort it in ascending/descending order in java.",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424133608"
+    },
+    "q_20250424133746": {
+      "id": "q_20250424133746",
+      "query": "Java program to find factorial using recursion",
+      "narrative": "The user is learning recursion and wants a simple Java function to compute the factorial of a number",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424133746"
+    },
+    "q_20250424134034": {
+      "id": "q_20250424134034",
+      "query": "How to convert String to int in Java",
+      "narrative": "he user has a numeric string and wants to convert it to an integer safely, handling possible NumberFormatException",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424134034"
+    },
+    "q_20250424134333": {
+      "id": "q_20250424134333",
+      "query": "Java LinkedList vs ArrayList performance",
+      "narrative": "The user is deciding between LinkedList and ArrayList and wants to understand their differences in terms of insertion, deletion, and random access performance.",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424134333"
+    },
+    "q_20250424134526": {
+      "id": "q_20250424134526",
+      "query": "How to handle NullPointerException in Java",
+      "narrative": "The user keeps encountering NullPointerException and wants best practices to avoid it",
+      "type": "debugging",
+      "language": "java",
+      "timestamp": "20250424134526"
+    },
+    "q_20250424144156": {
+      "id": "q_20250424144156",
+      "query": "Java program to check if a string is a palindrome",
+      "narrative": "The user wants to verify if a given string  reads the same backward as forward, ignoring case and spaces",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424144156"
+    },
+    "q_20250424145637": {
+      "id": "q_20250424145637",
+      "query": "How to use Java Stream API to filter a list",
+      "narrative": "The user has a list of objects and wants to filter elements based on a condition using Java Streams",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424145637"
+    },
+    "q_20250424145942": {
+      "id": "q_20250424145942",
+      "query": "Java program to find the largest number in an array",
+      "narrative": "The user wants to find the maximum value in an integer array",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424145942"
+    },
+    "q_20250424150327": {
+      "id": "q_20250424150327",
+      "query": "How to write to a file in Java using BufferedWriter",
+      "narrative": "The user wants to write text to a file efficiently, ensuring proper resource handling",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424150327"
+    },
+    "q_20250424150542": {
+      "id": "q_20250424150542",
+      "query": "Java String substring() method example",
+      "narrative": "The user needs to extract a portion of a string (e.g., first 5 characters) and wants to understand substring() bounds",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424150542"
+    },
+    "q_20250424150830": {
+      "id": "q_20250424150830",
+      "query": "How to implement a stack in Java",
+      "narrative": "The user wants to implement a LIFO (Last-In-First-Out) stack using Stack class or Deque",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424150830"
+    },
+    "q_20250424151311": {
+      "id": "q_20250424151311",
+      "query": "Java try-catch block best practices",
+      "narrative": "The user wants to handle exceptions properly, avoiding empty catch blocks and logging errors effectively",
+      "type": "optimization",
+      "language": "java",
+      "timestamp": "20250424151311"
+    },
+    "q_20250424151559": {
+      "id": "q_20250424151559",
+      "query": "Java program to count vowels in a string",
+      "narrative": " The user wants to count how many vowels (a, e, i, o, u) are present in a given string, case-insensitive.",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424151559"
+    },
+    "q_20250424151727": {
+      "id": "q_20250424151727",
+      "query": "How to generate random numbers in Java",
+      "narrative": "The user needs to generate random integers or doubles within a range using Random or ThreadLocalRandom",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424151727"
+    },
+    "q_20250424151953": {
+      "id": "q_20250424151953",
+      "query": "Java program to check leap year",
+      "narrative": "The user wants to determine if a given year is a leap year (divisible by 4, but not 100, unless also 400)",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424151953"
+    },
+    "q_20250424152133": {
+      "id": "q_20250424152133",
+      "query": "How to convert ArrayList to Array in Java",
+      "narrative": " The user has an ArrayList and needs to convert it to a standard array using toArray()",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424152133"
+    },
+    "q_20250424152354": {
+      "id": "q_20250424152354",
+      "query": "Java program to remove duplicates from an array",
+      "narrative": "The user wants to eliminate duplicate values from an array, possibly using HashSet or Java Streams",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424152354"
+    },
+    "q_20250424152538": {
+      "id": "q_20250424152538",
+      "query": "How to use Java Optional to avoid NullPointerException",
+      "narrative": "The user wants to replace null checks with Optional for cleaner and safer code",
+      "type": "optimization",
+      "language": "java",
+      "timestamp": "20250424152538"
+    },
+    "q_20250424152748": {
+      "id": "q_20250424152748",
+      "query": "How to read CSV file in Java using OpenCSV",
+      "narrative": "The user wants to parse a CSV file into Java objects, handling headers and different data types",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424152748"
+    },
+    "q_20250424152824": {
+      "id": "q_20250424152824",
+      "query": "Java program to find the sum of digits of a number",
+      "narrative": "The user wants to compute the sum of digits using loops or recursion",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424152824"
+    },
+    "q_20250424153222": {
+      "id": "q_20250424153222",
+      "query": "Java program to check Armstrong number",
+      "narrative": "The user wants to verify if a number is an Armstrong number",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424153222"
+    },
+    "q_20250424153417": {
+      "id": "q_20250424153417",
+      "query": "Java program to find GCD of two numbers",
+      "narrative": "The user needs to compute the greatest common divisor (GCD) of two numbers using Euclidean algorithm",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424153417"
+    },
+    "q_20250424153644": {
+      "id": "q_20250424153644",
+      "query": "How to use Java Timer and TimerTask",
+      "narrative": "The user wants to schedule a task to run periodically (e.g., every 5 seconds) using Timer",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424153644"
+    },
+    "q_20250424153933": {
+      "id": "q_20250424153933",
+      "query": "Java program to check if two strings are anagrams",
+      "narrative": "The user wants to check if two strings contain the same characters in any order",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424153933"
+    },
+    "q_20250424154127": {
+      "id": "q_20250424154127",
+      "query": "Java program to implement a simple calculator",
+      "narrative": " The user wants a basic calculator that can add, subtract, multiply, and divide",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424154127"
+    },
+    "q_20250424154501": {
+      "id": "q_20250424154501",
+      "query": "How to sort a list of tuples in Python",
+      "narrative": "The user has a list of tuples and wants to sort by the second element",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424154501"
+    },
+    "q_20250424154609": {
+      "id": "q_20250424154609",
+      "query": "Python program to find factorial using recursion",
+      "narrative": "The user is learning recursion and wants a simple function to compute factorial ",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424154609"
+    },
+    "q_20250424154821": {
+      "id": "q_20250424154821",
+      "query": "Python multithreading example with threading module",
+      "narrative": "The user wants to run concurrent tasks using threading.Thread, understanding GIL limitations",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424154821"
+    },
+    "q_20250424154950": {
+      "id": "q_20250424154950",
+      "query": "Python string split() method example",
+      "narrative": "The user needs to split a sentence into words",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424154950"
+    },
+    "q_20250424155121": {
+      "id": "q_20250424155121",
+      "query": "Python try-except block best practices",
+      "narrative": "The user wants to handle exceptions gracefully, avoiding bare except clauses",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424155121"
+    },
+    "q_20250424155255": {
+      "id": "q_20250424155255",
+      "query": "Python program to count vowels in a string",
+      "narrative": "The user wants to count vowels (a, e, i, o, u) in a string, case-insensitive",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424155255"
+    },
+    "q_20250424155421": {
+      "id": "q_20250424155421",
+      "query": "How to generate random numbers in Python",
+      "narrative": " The user needs random integers (random.randint), floats, or shuffled lists (random.shuffle)",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424155421"
+    },
+    "q_20250424155628": {
+      "id": "q_20250424155628",
+      "query": "Python program to check leap year",
+      "narrative": " The user wants to determine if a year is a leap year (divisible by 4, not 100 unless also 400)",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424155628"
+    },
+    "q_20250424155823": {
+      "id": "q_20250424155823",
+      "query": "Python program to check Armstrong number",
+      "narrative": "The user wants to verify if a number is Armstrong",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424155823"
+    },
+    "q_20250424160007": {
+      "id": "q_20250424160007",
+      "query": "Python program to print Floyd's triangle",
+      "narrative": " The user wants to print a right-angled triangular pattern of numbers",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424160007"
+    },
+    "q_20250424160226": {
+      "id": "q_20250424160226",
+      "query": "How to flatten a nested list in Python",
+      "narrative": "The user wants to convert a nested list into a single flat list in Python",
+      "type": "optimization",
+      "language": "python",
+      "timestamp": "20250424160226"
+    },
+    "q_20250424160357": {
+      "id": "q_20250424160357",
+      "query": "Fastest way to check if a string contains a substring",
+      "narrative": "The user needs performance benchmarks between in, str.find(), and regex for large text processing",
+      "type": "optimization",
+      "language": "python",
+      "timestamp": "20250424160357"
+    },
+    "q_20250424160502": {
+      "id": "q_20250424160502",
+      "query": "Difference between deepcopy and shallow copy in Python",
+      "narrative": "The user wants to understand how object copying affects nested structures",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424160502"
+    },
+    "q_20250424160747": {
+      "id": "q_20250424160747",
+      "query": " Java merge sort implementation with recursion",
+      "narrative": "The user needs an efficient O(log n) search algorithm for finding elements in a sorted array, handling edge cases like empty arrays",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424160747"
+    },
+    "q_20250424161005": {
+      "id": "q_20250424161005",
+      "query": "merge sort implementation in python",
+      "narrative": "he user wants a stable, O(n log n) sorting algorithm for large datasets, with clear recursive partitioning",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424161005"
+    },
+    "q_20250424161221": {
+      "id": "q_20250424161221",
+      "query": "BFS implementation in Java for adjacency list graphs",
+      "narrative": "The user needs to traverse a graph level-by-level (e.g., shortest path in unweighted graphs) using Queue and visited tracking",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424161221"
+    },
+    "q_20250424161333": {
+      "id": "q_20250424161333",
+      "query": "BFS implementation in python",
+      "narrative": "The user needs to traverse a graph level-by-level (e.g., shortest path in unweighted graphs) using Queue and visited tracking",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424161333"
+    },
+    "q_20250424161458": {
+      "id": "q_20250424161458",
+      "query": " Python DFS recursive vs. iterative performance comparison",
+      "narrative": "The user benchmarks stack-based (iterative) vs. call-stack (recursive) depth-first search",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424161458"
+    },
+    "q_20250424161647": {
+      "id": "q_20250424161647",
+      "query": "dfs in python",
+      "narrative": "depth first search implementation in python",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424161647"
+    },
+    "q_20250424161919": {
+      "id": "q_20250424161919",
+      "query": "Longest palindromic substring using dynamic programming in Python",
+      "narrative": "The user wants to find the longest palindrome ",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424161919"
+    },
+    "q_20250424162501": {
+      "id": "q_20250424162501",
+      "query": "\"SyntaxError: invalid syntax\" when using Python walrus operator (:=)",
+      "narrative": "The user tries to use := in Python 3.7 and needs version-specific syntax fixes",
+      "type": "debugging",
+      "language": "python",
+      "timestamp": "20250424162501"
+    },
+    "q_20250424162708": {
+      "id": "q_20250424162708",
+      "query": "\"IndentationError: unexpected indent\" in Python multiline strings",
+      "narrative": "The user mixes tabs/spaces in f-strings or docstrings and seeks consistent formatting",
+      "type": "debugging",
+      "language": "python",
+      "timestamp": "20250424162708"
+    },
+    "q_20250424162947": {
+      "id": "q_20250424162947",
+      "query": "\"KeyError: 'column_name'\" when filtering Pandas DataFrame",
+      "narrative": "The user misspells a column name or tries to access dropped columns",
+      "type": "debugging",
+      "language": "python",
+      "timestamp": "20250424162947"
+    },
+    "q_20250424163158": {
+      "id": "q_20250424163158",
+      "query": "Resolve \"FileNotFoundError: [Errno 2] No such file or directory\"",
+      "narrative": "The user needs cross-platform path handling with pathlib or absolute paths",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424163158"
+    },
+    "q_20250424163325": {
+      "id": "q_20250424163325",
+      "query": "Fix \"TypeError: cannot pickle '_thread.lock' object\" in multiprocessing",
+      "narrative": "he user tries to pass unpickleable objects between processes",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424163325"
+    },
+    "q_20250424163457": {
+      "id": "q_20250424163457",
+      "query": "Resolve \"NumberFormatException\" when parsing user input",
+      "narrative": "The user calls Integer.parseInt() on non-numeric strings",
+      "type": "debugging",
+      "language": "java",
+      "timestamp": "20250424163457"
+    },
+    "q_20250424163614": {
+      "id": "q_20250424163614",
+      "query": "Diagnose \"OutOfMemoryError: Java heap space\"",
+      "narrative": "The user needs to profile memory leaks with VisualVM or increase -Xmx",
+      "type": "debugging",
+      "language": "java",
+      "timestamp": "20250424163614"
+    },
+    "q_20250424163941": {
+      "id": "q_20250424163941",
+      "query": "Iterative tower of Hanoi solution in Java using stacks",
+      "narrative": "The user seeks a non-recursive approach to solve the classic problem with disk movement logging",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424163941"
+    },
+    "q_20250424164139": {
+      "id": "q_20250424164139",
+      "query": "Longest substring without repeating characters in Java (sliding window)",
+      "narrative": "The user wants an O(n) solution using HashMap to track character indices in java",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424164139"
+    },
+    "q_20250424164348": {
+      "id": "q_20250424164348",
+      "query": "Detect negative cycles in a graph using Bellman-Ford (Java)",
+      "narrative": "The user needs to identify cycles that make path costs infinitely negative",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424164348"
+    },
+    "q_20250424164506": {
+      "id": "q_20250424164506",
+      "query": "Generate all permutations of a string in Java using backtracking",
+      "narrative": "The user wants to list all possible arrangements of characters ",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424164506"
+    },
+    "q_20250424164622": {
+      "id": "q_20250424164622",
+      "query": "Find the smallest missing positive integer in an unsorted array (Python)",
+      "narrative": "The user seeks an O(n) time, O(1) space solution ",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424164622"
+    },
+    "q_20250424164806": {
+      "id": "q_20250424164806",
+      "query": "Monte Carlo simulation in Python to estimate pi",
+      "narrative": "The user randomly samples points in a unit square to approximate the ratio",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424164806"
+    },
+    "q_20250424165020": {
+      "id": "q_20250424165020",
+      "query": "Python solution for the N-Queens problem (backtracking)",
+      "narrative": "The user needs to place N queens on a chessboard without mutual attacks",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424165020"
+    },
+    "q_20250424165144": {
+      "id": "q_20250424165144",
+      "query": "Python implementation of the A* pathfinding algorithm",
+      "narrative": "The user wants to find the shortest path in a grid with heuristic-guided search",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424165144"
+    },
+    "q_20250424165403": {
+      "id": "q_20250424165403",
+      "query": "Python regex to validate email addresses ",
+      "narrative": "he user needs a pattern to identify if the email id is of correct format",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424165403"
+    },
+    "q_20250424165605": {
+      "id": "q_20250424165605",
+      "query": "Python implementation of Kruskal's MST algorithm with Union-Find",
+      "narrative": "The user wants to find minimum spanning trees with edge sorting and path compression.",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424165605"
+    },
+    "q_20250424165710": {
+      "id": "q_20250424165710",
+      "query": "Java program to check if two strings are isomorphic",
+      "narrative": "The user needs to verify character mapping consistency between strings in java",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424165710"
+    },
+    "q_20250424165929": {
+      "id": "q_20250424165929",
+      "query": "abstraction example in java",
+      "narrative": "The user wants to learn one of the OOP concept abstarction in java with an example",
+      "type": "concept",
+      "language": "java",
+      "timestamp": "20250424165929"
+    },
+    "q_20250424170204": {
+      "id": "q_20250424170204",
+      "query": "How to implement a stack in Python",
+      "narrative": "The user wants a LIFO stack using lists (append()/pop()) or collections.deque",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424170204"
+    },
+    "q_20250424170311": {
+      "id": "q_20250424170311",
+      "query": "How to use Python defaultdict from collections",
+      "narrative": "The user wants to avoid KeyError in dictionaries by providing default values for missing keys",
+      "type": "optimization",
+      "language": "python",
+      "timestamp": "20250424170311"
+    },
+    "q_20250424170447": {
+      "id": "q_20250424170447",
+      "query": "Python program to find LCM of two numbers",
+      "narrative": "The user wants to find the least common multiple of two numbers",
+      "type": "concept",
+      "language": "python",
+      "timestamp": "20250424170447"
     }
   },
   "judgments": {
@@ -301,6 +869,785 @@
       "python_96045": 2,
       "python_324604": 0,
       "python_68532": 0
+    },
+    "q_20250424132455": {
+      "python_248354": 0,
+      "java_93649": 0,
+      "java_110255": 0,
+      "java_287782": 0,
+      "java_298180": 0,
+      "java_365325": 0,
+      "java_393728": 0,
+      "java_401086": 0
+    },
+    "q_20250424132813": {
+      "java_335214": 2,
+      "java_110255": 0
+    },
+    "q_20250424132918": {
+      "python_369418": 1,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_287782": 0,
+      "java_298180": 0,
+      "java_410413": 0,
+      "python_253812": 0,
+      "python_192078": 0,
+      "python_145461": 1,
+      "python_215063": 0,
+      "java_365325": 0,
+      "java_448922": 0,
+      "java_237818": 0,
+      "java_341600": 0,
+      "python_238172": 0
+    },
+    "q_20250424133257": {
+      "java_321058": 0,
+      "java_364490": 0,
+      "java_110255": 0,
+      "java_341600": 0,
+      "java_93649": 0,
+      "java_287782": 0,
+      "java_298853": 1
+    },
+    "q_20250424133608": {
+      "java_144853": 2,
+      "java_93649": 0
+    },
+    "q_20250424133746": {
+      "java_178978": 0,
+      "python_216585": 0,
+      "java_364490": 0,
+      "java_365325": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_287782": 0,
+      "python_178398": 0,
+      "python_216586": 0,
+      "python_6102": 0,
+      "java_410413": 0,
+      "java_448922": 0,
+      "java_130991": 0,
+      "java_409418": 0,
+      "python_217165": 0,
+      "python_182252": 0,
+      "java_252517": 0,
+      "java_252516": 0,
+      "java_282211": 0,
+      "java_63429": 0
+    },
+    "q_20250424134034": {
+      "java_163695": 1,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_298180": 0,
+      "java_287782": 0,
+      "java_410413": 0,
+      "java_184417": 0,
+      "java_135835": 0,
+      "java_245347": 0,
+      "java_331286": 0,
+      "java_237818": 0
+    },
+    "q_20250424134333": {
+      "java_398211": 0,
+      "java_110255": 0,
+      "java_364490": 0,
+      "java_365325": 0,
+      "java_93649": 0,
+      "java_287782": 0,
+      "java_392028": 0,
+      "java_308357": 0,
+      "java_410450": 0,
+      "java_18148": 0
+    },
+    "q_20250424134526": {
+      "python_248354": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_410413": 0,
+      "java_287782": 0,
+      "java_365325": 0,
+      "python_392890": 0,
+      "python_392891": 0,
+      "java_401086": 2
+    },
+    "q_20250424144156": {
+      "python_169264": 1,
+      "java_110255": 0,
+      "java_365325": 0,
+      "java_93649": 0,
+      "java_364490": 0,
+      "java_287782": 0,
+      "python_169261": 1,
+      "python_169262": 1,
+      "python_411984": 1,
+      "python_169263": 1,
+      "java_410413": 0,
+      "java_298180": 0
+    },
+    "q_20250424145637": {
+      "python_392891": 0,
+      "java_26068": 0,
+      "java_93649": 0
+    },
+    "q_20250424145942": {
+      "python_285192": 0,
+      "python_285193": 0,
+      "python_285195": 0,
+      "python_285196": 0,
+      "java_365325": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_448922": 0,
+      "java_298180": 0,
+      "python_285194": 0,
+      "java_364490": 0,
+      "java_142138": 0,
+      "java_142137": 0,
+      "java_142728": 0,
+      "python_285191": 0,
+      "java_142727": 0,
+      "java_410413": 0,
+      "java_287782": 0,
+      "java_282211": 0,
+      "java_186661": 0
+    },
+    "q_20250424150327": {
+      "java_17323": 2,
+      "java_110255": 0
+    },
+    "q_20250424150542": {
+      "java_115769": 1,
+      "java_93649": 0,
+      "java_110255": 0,
+      "java_341600": 0,
+      "java_287782": 0,
+      "java_365138": 0,
+      "java_83135": 0,
+      "java_97922": 2
+    },
+    "q_20250424150830": {
+      "java_443641": 0,
+      "java_443803": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_365325": 0,
+      "java_287782": 0,
+      "java_410413": 0,
+      "java_443911": 0,
+      "java_139951": 0,
+      "java_31714": 0,
+      "java_364490": 0,
+      "java_341600": 0,
+      "java_448922": 0,
+      "python_60885": 0,
+      "java_26068": 0,
+      "java_342752": 0,
+      "python_60886": 0
+    },
+    "q_20250424151311": {
+      "python_111372": 0,
+      "java_364490": 0,
+      "java_110255": 0,
+      "java_341600": 0,
+      "java_287782": 0,
+      "java_365325": 0,
+      "python_179213": 0,
+      "java_329376": 1,
+      "python_160382": 0,
+      "java_310318": 2,
+      "java_93649": 0,
+      "java_410413": 0
+    },
+    "q_20250424151559": {
+      "python_74954": 1,
+      "java_365325": 0,
+      "java_93649": 0,
+      "java_110255": 0,
+      "java_287782": 0,
+      "java_298180": 0,
+      "python_132952": 0,
+      "python_217165": 0,
+      "python_216585": 0
+    },
+    "q_20250424151727": {
+      "python_103000": 1,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_365325": 0,
+      "java_287782": 0,
+      "java_410413": 0,
+      "python_210689": 0,
+      "java_344646": 2
+    },
+    "q_20250424151953": {
+      "java_367398": 1,
+      "java_364490": 0,
+      "java_110255": 0
+    },
+    "q_20250424152133": {
+      "python_518": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_287782": 0,
+      "java_298180": 0,
+      "java_410413": 0,
+      "python_497": 0,
+      "java_341624": 0,
+      "java_135835": 0,
+      "java_158103": 1
+    },
+    "q_20250424152354": {
+      "java_142138": 0,
+      "java_142137": 0,
+      "java_365325": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_364490": 0,
+      "java_410413": 0,
+      "python_38634": 0
+    },
+    "q_20250424152538": {
+      "python_178786": 0,
+      "java_110255": 0,
+      "java_364490": 0,
+      "java_410413": 0,
+      "java_93649": 0,
+      "java_365325": 0,
+      "java_11465": 0,
+      "java_69428": 1,
+      "java_401086": 1
+    },
+    "q_20250424152748": {
+      "python_354955": 1,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_287782": 0,
+      "java_410413": 0,
+      "java_298180": 0,
+      "java_431704": 1,
+      "java_242954": 2
+    },
+    "q_20250424152824": {
+      "java_231515": 0,
+      "java_365325": 0,
+      "java_93649": 0,
+      "java_298180": 0,
+      "java_110255": 0,
+      "java_259891": 0,
+      "python_371597": 0,
+      "python_272444": 0,
+      "python_393402": 0,
+      "python_33714": 0,
+      "java_448922": 0,
+      "java_237818": 0,
+      "java_43113": 0
+    },
+    "q_20250424153222": {
+      "python_157770": 0,
+      "java_110255": 0,
+      "java_364490": 0,
+      "java_93649": 0,
+      "java_287782": 0,
+      "java_341600": 0,
+      "python_115167": 0,
+      "python_217165": 0,
+      "python_216585": 0,
+      "python_216586": 0,
+      "java_365325": 0,
+      "java_410413": 0,
+      "java_374113": 0,
+      "java_448922": 0,
+      "java_142138": 0,
+      "java_142728": 0,
+      "python_379302": 0,
+      "java_142137": 0,
+      "java_142727": 0,
+      "java_365138": 0
+    },
+    "q_20250424153417": {
+      "python_145940": 0,
+      "java_365325": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_298180": 0,
+      "java_287782": 0,
+      "python_325450": 0,
+      "java_258795": 2,
+      "java_234927": 2,
+      "python_51883": 0,
+      "java_448922": 0
+    },
+    "q_20250424153644": {
+      "java_31572": 1,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_287782": 0,
+      "java_365325": 0,
+      "java_341600": 0,
+      "java_419819": 1,
+      "java_308913": 0
+    },
+    "q_20250424153933": {
+      "python_338692": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_365325": 0,
+      "java_364490": 0,
+      "java_287782": 0,
+      "python_253232": 1,
+      "python_217165": 0,
+      "python_410972": 0
+    },
+    "q_20250424154127": {
+      "python_64190": 0,
+      "java_364490": 0,
+      "java_365325": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_287782": 0,
+      "java_142139": 0,
+      "python_217165": 0,
+      "python_288282": 0,
+      "python_216585": 0,
+      "java_341600": 0
+    },
+    "q_20250424154501": {
+      "python_366119": 0,
+      "python_240359": 0,
+      "python_256378": 0,
+      "python_298991": 0
+    },
+    "q_20250424154609": {
+      "java_178978": 0,
+      "python_262108": 0,
+      "python_256378": 0,
+      "python_298991": 0,
+      "python_240359": 0,
+      "python_174538": 0,
+      "python_61793": 0,
+      "python_178844": 0,
+      "python_146764": 0,
+      "python_260014": 0,
+      "python_46986": 0,
+      "python_40793": 0,
+      "python_292395": 0,
+      "python_30987": 0,
+      "python_178846": 0,
+      "python_348052": 0,
+      "python_321885": 0,
+      "python_63371": 0,
+      "python_393402": 0,
+      "python_327921": 0
+    },
+    "q_20250424154821": {
+      "python_273256": 1,
+      "python_256378": 0,
+      "python_240359": 0,
+      "python_61793": 0,
+      "python_40793": 0
+    },
+    "q_20250424154950": {
+      "python_28733": 0,
+      "python_298991": 0
+    },
+    "q_20250424155121": {
+      "python_191913": 1,
+      "python_298991": 0,
+      "python_240359": 0,
+      "python_256378": 0,
+      "python_292395": 0,
+      "python_46986": 0,
+      "python_144326": 0,
+      "python_46214": 2
+    },
+    "q_20250424155255": {
+      "python_74954": 2,
+      "python_256378": 0,
+      "python_240359": 0,
+      "python_298991": 0,
+      "python_46986": 0,
+      "python_292395": 0,
+      "python_132952": 0,
+      "python_347961": 0,
+      "python_227927": 0,
+      "python_255993": 0
+    },
+    "q_20250424155421": {
+      "python_376546": 2,
+      "python_103000": 0,
+      "python_215138": 0,
+      "python_298991": 0,
+      "python_240359": 0,
+      "python_393402": 0,
+      "python_256378": 0,
+      "python_46986": 0,
+      "python_195384": 0
+    },
+    "q_20250424155628": {
+      "python_188826": 0,
+      "python_298991": 0,
+      "python_393402": 0,
+      "python_166021": 0,
+      "python_218067": 0,
+      "python_364399": 0,
+      "python_410972": 0,
+      "python_188827": 0,
+      "python_410980": 0,
+      "python_103731": 0,
+      "python_273545": 0,
+      "python_52090": 0,
+      "python_40793": 0,
+      "python_61793": 0
+    },
+    "q_20250424155823": {
+      "python_410972": 0,
+      "python_298991": 0,
+      "python_393402": 0,
+      "python_166021": 0,
+      "python_218067": 0,
+      "python_364399": 0,
+      "python_410980": 0,
+      "python_157770": 0,
+      "python_103731": 0,
+      "python_410978": 0,
+      "python_273545": 0,
+      "python_52090": 0,
+      "python_307935": 0,
+      "python_40793": 0,
+      "python_115167": 0,
+      "python_347961": 0
+    },
+    "q_20250424160007": {
+      "python_83150": 0,
+      "python_410972": 0,
+      "python_298991": 0,
+      "python_166021": 0,
+      "python_393402": 0,
+      "python_218067": 0,
+      "python_364399": 0,
+      "python_103731": 0,
+      "python_80227": 0,
+      "python_364163": 0
+    },
+    "q_20250424160226": {
+      "python_76571": 2,
+      "python_240359": 0
+    },
+    "q_20250424160357": {
+      "python_125069": 1,
+      "java_365325": 0,
+      "java_110255": 0
+    },
+    "q_20250424160502": {
+      "python_331288": 2,
+      "python_298991": 0
+    },
+    "q_20250424160747": {
+      "python_3932": 1,
+      "java_364490": 0,
+      "java_365325": 0,
+      "java_287782": 0,
+      "java_110255": 0,
+      "java_341600": 0,
+      "python_277985": 0,
+      "python_74691": 0,
+      "python_157020": 0,
+      "python_237987": 0,
+      "java_82744": 0,
+      "java_93649": 0,
+      "java_448922": 0
+    },
+    "q_20250424161005": {
+      "java_2369": 0,
+      "python_298991": 0,
+      "python_393402": 0,
+      "python_166021": 0,
+      "python_364399": 0,
+      "python_218067": 0,
+      "python_237987": 1,
+      "python_13520": 0,
+      "python_237988": 1,
+      "python_71556": 0,
+      "python_273545": 0
+    },
+    "q_20250424161221": {
+      "python_91776": 1,
+      "java_364490": 0
+    },
+    "q_20250424161333": {
+      "python_228709": 0,
+      "python_298991": 0,
+      "python_393402": 0,
+      "python_166021": 0,
+      "python_218067": 0,
+      "python_364399": 0,
+      "python_228710": 0,
+      "python_7247": 2,
+      "python_120383": 0,
+      "python_376650": 0
+    },
+    "q_20250424161458": {
+      "python_271629": 0,
+      "python_61793": 0,
+      "python_298991": 0,
+      "python_327921": 0,
+      "python_174538": 0,
+      "python_21092": 0,
+      "python_278030": 0,
+      "java_429277": 0,
+      "python_271650": 0
+    },
+    "q_20250424161647": {
+      "python_257041": 0,
+      "python_393402": 0,
+      "python_298991": 0,
+      "python_218067": 0,
+      "python_364399": 0,
+      "python_166021": 0,
+      "python_1204": 0,
+      "python_1197": 0,
+      "python_322535": 0,
+      "python_98276": 0,
+      "python_307935": 0,
+      "python_273545": 0,
+      "python_46986": 0,
+      "python_368493": 0,
+      "python_289975": 0,
+      "python_414": 0,
+      "python_72807": 0,
+      "python_194637": 0,
+      "python_177710": 0,
+      "python_52090": 0
+    },
+    "q_20250424161919": {
+      "python_253100": 2,
+      "java_365325": 0
+    },
+    "q_20250424162501": {
+      "python_247246": 0,
+      "python_240359": 0,
+      "python_256378": 0,
+      "python_292395": 0,
+      "python_30127": 0,
+      "python_343718": 0,
+      "python_254766": 0,
+      "python_150552": 0
+    },
+    "q_20250424162708": {
+      "python_261057": 1,
+      "python_240359": 0,
+      "python_256378": 0,
+      "python_292395": 0,
+      "python_30127": 0,
+      "python_343718": 0,
+      "python_251169": 0
+    },
+    "q_20250424162947": {
+      "python_141813": 2,
+      "java_110255": 0,
+      "java_364490": 0,
+      "java_365325": 0,
+      "java_410413": 0,
+      "java_287782": 0
+    },
+    "q_20250424163158": {
+      "python_191470": 2,
+      "java_110255": 0,
+      "java_365325": 0,
+      "java_410413": 0,
+      "java_448922": 0
+    },
+    "q_20250424163325": {
+      "python_341762": 1,
+      "java_110255": 0,
+      "java_364490": 0,
+      "java_365325": 0
+    },
+    "q_20250424163457": {
+      "java_433311": 2,
+      "java_433393": 2,
+      "java_433323": 2,
+      "java_110255": 0,
+      "java_364490": 0
+    },
+    "q_20250424163614": {
+      "java_4569": 1,
+      "java_110255": 0,
+      "java_410413": 0
+    },
+    "q_20250424163941": {
+      "python_4091": 2,
+      "java_93649": 0
+    },
+    "q_20250424164139": {
+      "python_3834": 1,
+      "python_3835": 1,
+      "java_365325": 0,
+      "java_364490": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_298180": 0,
+      "python_3832": 1,
+      "python_3833": 1,
+      "python_386235": 0,
+      "java_346219": 0,
+      "java_287782": 0,
+      "java_448922": 0,
+      "python_386236": 1,
+      "python_261199": 0,
+      "java_185497": 0,
+      "java_124465": 2
+    },
+    "q_20250424164348": {
+      "python_253095": 1,
+      "java_298180": 0,
+      "java_71351": 0,
+      "java_110255": 0,
+      "java_261056": 0,
+      "java_259277": 0,
+      "python_254051": 1,
+      "python_349097": 0
+    },
+    "q_20250424164506": {
+      "java_344550": 1,
+      "java_365325": 0,
+      "java_93649": 0,
+      "java_110255": 0
+    },
+    "q_20250424164622": {
+      "python_291399": 0,
+      "python_256378": 0,
+      "python_240359": 0,
+      "python_292395": 0,
+      "python_343718": 0,
+      "python_321822": 0,
+      "java_193997": 0,
+      "python_45633": 0,
+      "java_232553": 0,
+      "java_232540": 0,
+      "python_46986": 0,
+      "python_312952": 0
+    },
+    "q_20250424164806": {
+      "python_339175": 0,
+      "python_298991": 0,
+      "python_256378": 0,
+      "python_240359": 0,
+      "python_393402": 0,
+      "python_46986": 0,
+      "python_339180": 0,
+      "python_88656": 0
+    },
+    "q_20250424165020": {
+      "python_201876": 2,
+      "python_240359": 0,
+      "python_256378": 0,
+      "python_343718": 0,
+      "python_292395": 0,
+      "python_30127": 0,
+      "python_89238": 2,
+      "python_119599": 2,
+      "python_130644": 0
+    },
+    "q_20250424165144": {
+      "python_257926": 0,
+      "python_256378": 0,
+      "python_240359": 0,
+      "python_174538": 0,
+      "python_46986": 0,
+      "python_40793": 0,
+      "python_283787": 0,
+      "python_220837": 0,
+      "python_36867": 0,
+      "java_243623": 0,
+      "python_292395": 0,
+      "python_61793": 0,
+      "python_21092": 0,
+      "python_68532": 0,
+      "java_418951": 0
+    },
+    "q_20250424165403": {
+      "python_385010": 2,
+      "python_256378": 0,
+      "python_240359": 0,
+      "python_292395": 0,
+      "python_46986": 0,
+      "python_30127": 0,
+      "python_253435": 2,
+      "python_196201": 2,
+      "python_383784": 2,
+      "python_240466": 2,
+      "python_343718": 0,
+      "python_336062": 0
+    },
+    "q_20250424165605": {
+      "python_98673": 2,
+      "python_253167": 2,
+      "python_240359": 0,
+      "python_343718": 0,
+      "python_292395": 0,
+      "python_256378": 0
+    },
+    "q_20250424165710": {
+      "python_51071": 1,
+      "java_365325": 0,
+      "java_110255": 0,
+      "java_93649": 0,
+      "java_364490": 0,
+      "java_287782": 0,
+      "python_330212": 1,
+      "python_217165": 0,
+      "python_410972": 0,
+      "python_216585": 0,
+      "java_410413": 0,
+      "java_298180": 0,
+      "java_448922": 0,
+      "java_282211": 0,
+      "python_216586": 0,
+      "python_336532": 0,
+      "java_142728": 0,
+      "java_142138": 0,
+      "java_142137": 0,
+      "java_130991": 0
+    },
+    "q_20250424165929": {
+      "java_300276": 0,
+      "java_364490": 0,
+      "java_365138": 0,
+      "java_182895": 0,
+      "java_110255": 0,
+      "java_287782": 0,
+      "java_21544": 0,
+      "java_36308": 0,
+      "java_93357": 1
+    },
+    "q_20250424170204": {
+      "python_160068": 0,
+      "python_109017": 1,
+      "python_158652": 0,
+      "python_298991": 0
+    },
+    "q_20250424170311": {
+      "python_97175": 1,
+      "python_298991": 0,
+      "python_393402": 0
+    },
+    "q_20250424170447": {
+      "python_130115": 2,
+      "python_256378": 0,
+      "python_240359": 0,
+      "python_298991": 0,
+      "python_46986": 0,
+      "java_410346": 1,
+      "java_258796": 1,
+      "python_51883": 0,
+      "python_410972": 0,
+      "python_292395": 0,
+      "python_393402": 0,
+      "python_68532": 0,
+      "python_320695": 0
     }
   }
 }
