@@ -1,9 +1,8 @@
-# evaluation.py
 import json
 import numpy as np
 import matplotlib.pyplot as plt
 from bm25_retrieval import BM25Retriever
-from semantic_retrieval_optimized import OptimizedCodeBERTRetriever
+from semantic_retrieval import GraphCodeBERTRetriever
 from hybrid_retrieval import SimpleWeightedHybridRetriever, ReciprocalRankFusionRetriever
 
 class RetrievalEvaluator:
@@ -25,7 +24,7 @@ class RetrievalEvaluator:
         # Initialize retrievers
         print("Initializing retrievers...")
         self.bm25_retriever = BM25Retriever(self.python_data, self.java_data)
-        self.semantic_retriever = OptimizedCodeBERTRetriever(self.python_data, self.java_data)
+        self.semantic_retriever = GraphCodeBERTRetriever(self.python_data, self.java_data)
         self.hybrid_retriever_03 = SimpleWeightedHybridRetriever(self.bm25_retriever, self.semantic_retriever, alpha=0.3)
         self.hybrid_retriever_05 = SimpleWeightedHybridRetriever(self.bm25_retriever, self.semantic_retriever, alpha=0.5)
         self.hybrid_retriever_07 = SimpleWeightedHybridRetriever(self.bm25_retriever, self.semantic_retriever, alpha=0.7)
@@ -459,8 +458,8 @@ class RetrievalEvaluator:
 # Run evaluation
 if __name__ == "__main__":
     # Path to your data files
-    python_data_file = "preprocessed_codesearchnet_python.json"
-    java_data_file = "preprocessed_codesearchnet_java.json"
+    python_data_file = "codesearchnet_python.json"
+    java_data_file = "codesearchnet_java.json"
     annotations_file = "annotations.json"
     
     try:

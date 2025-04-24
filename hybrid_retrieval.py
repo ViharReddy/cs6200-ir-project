@@ -1,6 +1,3 @@
-from bm25_retrieval import BM25Retriever
-from semantic_retrieval_optimized import OptimizedCodeBERTRetriever
-
 class SimpleWeightedHybridRetriever:
     def __init__(self, bm25_retriever, semantic_retriever, alpha=0.5):
         self.bm25_retriever = bm25_retriever
@@ -45,6 +42,11 @@ class SimpleWeightedHybridRetriever:
                     "combined_score": (1-self.alpha) * normalized_score,
                     "data": result
                 }
+            
+            if doc_id.startswith("python") and "python" in query.lower():
+                combined_scores[doc_id]["combined_score"] *= 1.1
+            elif doc_id.startswith("java") and "java" in query.lower():
+                combined_scores[doc_id]["combined_score"] *= 1.1
         
         # Sort by combined score and get top-k results
         top_doc_ids = sorted(combined_scores.keys(), key=lambda x: combined_scores[x]["combined_score"], reverse=True)[:k]
@@ -103,6 +105,14 @@ class ReciprocalRankFusionRetriever:
             
             if doc:
                 doc["rrf_score"] = rrf_scores[doc_id]
+                for res in bm25_results:
+                    if res["id"] == doc_id:
+                        doc["bm25_score"] = res["score"]
+                        break
+                for res in semantic_results:
+                    if res["id"] == doc_id:
+                        doc["semantic_score"] = res["score"]
+                        break
                 results.append(doc)
         
         return results

@@ -1,9 +1,8 @@
-# annotation_tool.py
 import json
 import os
 from datetime import datetime
 from bm25_retrieval import BM25Retriever
-from semantic_retrieval_optimized import OptimizedCodeBERTRetriever
+from semantic_retrieval import GraphCodeBERTRetriever
 from hybrid_retrieval import SimpleWeightedHybridRetriever, ReciprocalRankFusionRetriever
 
 class AnnotationTool:
@@ -26,7 +25,7 @@ class AnnotationTool:
         # Initialize retrievers
         print("Initializing retrievers...")
         self.bm25_retriever = BM25Retriever(self.python_data, self.java_data)
-        self.semantic_retriever = OptimizedCodeBERTRetriever(self.python_data, self.java_data)
+        self.semantic_retriever = GraphCodeBERTRetriever(self.python_data, self.java_data)
         self.hybrid_retriever = SimpleWeightedHybridRetriever(self.bm25_retriever, self.semantic_retriever, alpha=0.5)
         self.rrf_retriever = ReciprocalRankFusionRetriever(self.bm25_retriever, self.semantic_retriever)
         
